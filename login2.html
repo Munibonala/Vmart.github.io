@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>V-mart login</title>
+    <style>
+        body{
+            background: white url("img/backgrnd2.jpg") no-repeat fixed bottom;
+            background-size: cover;
+            height: 100vh;
+            z-index: 1;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+            padding-top: 50px;
+        }
+
+        .login{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .login form input{
+            padding: 10px;
+            color: white;
+            font-style: italic;
+            font-size: 18px;
+        }
+        .login form input:hover {
+            background-color: rgba(0,0,0,.3);
+            border-radius: 20px;
+            color: white;
+
+        }
+        .sign-in{
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+        }
+        .sign-in button:hover{
+            box-shadow: 0 0 15px white;
+        }
+        .icons{
+            width: 100%;
+            height: 50px;
+            background-color: rgba(250,380,211,.4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+        }
+        .icons img:hover{
+            cursor: pointer;
+            box-shadow: 0 0 15px green;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="logo">
+        <img src="img/ic_logo.png">
+    </div>
+    <div class="text-center">
+        <p class="text-white"> Sign in to your Vmart Account</p>
+    </div>
+    <div class="login">
+        <form>
+            <input type="text" name="" placeholder="User Name">
+            <input type="password" placeholder="Password">
+        </form>
+    </div>
+    <div class="sign-in ">
+        <button type="button" class="btn btn-yellow btn-md">Sign in</button>
+        <button type="button" class="btn btn-outline-info btn-md">Sign in With OTP</button>
+    </div>
+    <div class="icons">
+        <img src="img/google-icon.png" width="40px">
+        <img src="img/facebook.png" width="50px">
+    </div>
+
+</div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>
